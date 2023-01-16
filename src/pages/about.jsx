@@ -17,16 +17,16 @@ export default function About() {
                 <div>
                     <h1 className="text-4xl font-bold">Who Am <span className="relative whitespace-nowrap text-primary">I</span>?</h1>
                     <p className="text-xl mt-1">
-                        Hello, Im clqu. I am 16 years old.
-                        I am a 3rd year high school student, I have been dealing with software for about 3 years.
-                        I started with PHP, developed with Minecraft Plugins and made my biggest improvement with the latest Discord bot.
+                        Hello, Im Bryden. I am 14 years old.
+                        I have been interested in coding for about 2 years.
+                        I first started with beginner a Discord bot, and soon realizing what coding was really like
                         Since then, software has been more of a hobby for me than a dream, I spent days developing my hobby, I tried to improve my software knowledge for at least 10 hours a day in 1 year, finally here I am.
                         Thank you for reading <i className="fa fa-heart" />
                     </p>
                     
                 </div>
                 <div className="relative flex-shrink-0">
-                    <img src="https://softwareer.net/avatars/clqu" style={{ zIndex: 1 }} className="relative shadow-xl z-1 w-full lg:w-64 h-full lg:h-64 rounded-full lg:rounded-lg" />
+                    <img src="https://cdn.discordapp.com/avatars/529815278456930314/76b717e78fe80bfb2dbb73b60e96fd14.png?size=1280" style={{ zIndex: 1 }} className="relative shadow-xl z-1 w-full lg:w-64 h-full lg:h-64 rounded-full lg:rounded-lg" />
                     <div className="-right-3 top-3 absolute w-full h-full top-0 right-0 border-4 rounded-full lg:rounded-lg border-primary bg-gradient-to-t from-primary" />
                 </div>
             </div>
