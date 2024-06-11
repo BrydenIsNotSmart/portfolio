@@ -1,0 +1,27 @@
+<template>
+  <div class="about">
+    <h1><b>About Me</b></h1>
+    <h2>
+      I go by BrydenIsNotSmart online and I'm currently 15 years old. I like to code in my free
+      time, my main project is currently
+      <a href="https://strafe.chat" target="_blank" rel="noopener">Strafe Chat</a>. I also like to
+      play games like Valorant, PAYDAY 3, RDR2, GTA5 and more.
+    </h2>
+    <div>
+      <button :onclick="`window.open('https://x.com/brydencalaway', '_blank')`">
+        <font-awesome-icon :icon="['fab', 'x-twitter']" style="height: 25px" />
+      </button>
+      <button :onclick="`window.open('https://github.com/brydenisnotsmart', '_blank')`">
+        <font-awesome-icon :icon="['fab', 'github']" style="height: 25px" />
+      </button>
+      <button :onclick="`window.open('https://steamcommunity.com/id/BrydenIsNotSmart/', '_blank')`">
+        <font-awesome-icon :icon="['fab', 'steam']" style="height: 25px" />
+      </button>
+      <button
+        :onclick="`window.open('https://open.spotify.com/user/be9w9l70928f7rn0gpvgthhqb/', '_blank')`"
+      >
+        <font-awesome-icon :icon="['fab', 'spotify']" style="height: 25px" />
+      </button>
+    </div>
+  </div>
+</template>
