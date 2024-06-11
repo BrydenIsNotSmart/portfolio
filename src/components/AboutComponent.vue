@@ -1,9 +1,23 @@
+<script setup lang="ts">
+import { computed } from 'vue'
+
+const dob = new Date(2009, 0, 14)
+
+const calculateAge = (dob: Date) => {
+  const diff = Date.now() - dob.getTime()
+  const ageDate = new Date(diff)
+  return Math.abs(ageDate.getUTCFullYear() - 1970)
+}
+
+const age = computed(() => calculateAge(dob))
+</script>
+
 <template>
   <div class="about">
     <h1><b>About Me</b></h1>
     <h2>
-      I go by BrydenIsNotSmart online and I'm currently 15 years old. I like to code in my free
-      time, my main project is currently
+      I go by BrydenIsNotSmart online and I'm currently {{ age }} years old. I like to code in my
+      free time, my main project is currently
       <a href="https://strafe.chat" target="_blank" rel="noopener">Strafe Chat</a>. I also like to
       play games like Valorant, PAYDAY 3, RDR2, GTA5 and more.
     </h2>

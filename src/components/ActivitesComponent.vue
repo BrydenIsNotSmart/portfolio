@@ -1,6 +1,6 @@
 <template>
   <div class="activies">
-    <h1><b>Current Activity</b></h1>
+    <h1><b>Discord Activity</b></h1>
     <div>
       <iframe
         src="https://lanyard.cnrad.dev/api/529815278456930314?showDisplayName=true"
