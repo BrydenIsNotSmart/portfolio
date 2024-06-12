@@ -88,7 +88,6 @@ nav a:first-of-type {
   }
 }
 
-/* Add animation styles */
 .slide-fade-enter-active,
 .slide-fade-leave-active {
   transition:
