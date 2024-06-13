@@ -22,19 +22,29 @@ const age = computed(() => calculateAge(dob))
       play games like Valorant, PAYDAY 3, RDR2, GTA5 and more.
     </h2>
     <div>
-      <button :onclick="`window.open('https://x.com/brydencalaway', '_blank')`">
+      <button title="X" :onclick="`window.open('https://x.com/brydencalaway', '_blank')`">
         <font-awesome-icon :icon="['fab', 'x-twitter']" style="height: 25px" />
       </button>
-      <button :onclick="`window.open('https://github.com/brydenisnotsmart', '_blank')`">
+      <button
+        title="GitHub"
+        :onclick="`window.open('https://github.com/brydenisnotsmart', '_blank')`"
+      >
         <font-awesome-icon :icon="['fab', 'github']" style="height: 25px" />
       </button>
-      <button :onclick="`window.open('https://steamcommunity.com/id/BrydenIsNotSmart/', '_blank')`">
+      <button
+        title="Steam"
+        :onclick="`window.open('https://steamcommunity.com/id/BrydenIsNotSmart/', '_blank')`"
+      >
         <font-awesome-icon :icon="['fab', 'steam']" style="height: 25px" />
       </button>
       <button
+        title="Spotify"
         :onclick="`window.open('https://open.spotify.com/user/be9w9l70928f7rn0gpvgthhqb/', '_blank')`"
       >
         <font-awesome-icon :icon="['fab', 'spotify']" style="height: 25px" />
+      </button>
+      <button title="Donate" :onclick="`window.open('https://ko-fi.com/bryden', '_blank')`">
+        <font-awesome-icon :icon="['fas', 'circle-dollar-to-slot']" style="height: 25px" />
       </button>
     </div>
   </div>

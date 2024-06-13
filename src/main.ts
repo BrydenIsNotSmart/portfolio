@@ -17,8 +17,19 @@ import {
   faSteam,
   faSpotify
 } from '@fortawesome/free-brands-svg-icons'
+import { faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faJsSquare, faVuejs, faRust, faNodeJs, faXTwitter, faGithub, faSteam, faSpotify)
+library.add(
+  faJsSquare,
+  faVuejs,
+  faRust,
+  faNodeJs,
+  faXTwitter,
+  faGithub,
+  faSteam,
+  faSpotify,
+  faCircleDollarToSlot
+)
 
 const app = createApp(App)
 
