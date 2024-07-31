@@ -44,14 +44,14 @@ const age = computed(() => calculateAge(dob))
       >
         <font-awesome-icon :icon="['fab', 'spotify']" style="height: 25px" />
       </button>
-      <button title="Donate" :onclick="`window.open('https://ko-fi.com/bryden', '_blank')`">
-        <font-awesome-icon :icon="['fas', 'circle-dollar-to-slot']" style="height: 25px" />
-      </button>
       <button
         title="Wakatime"
-        :on-click="`window.open('https://wakatime.com/@BrydenIsNotSmart', '_blank')`"
+        :onclick="`window.open('https://wakatime.com/@BrydenIsNotSmart', '_blank')`"
       >
-        <img :src="wakatimeImg" class="icon" />
+        <img :src="wakatimeImg" class="icon" style="height: 23.5px; padding-top: 3px" />
+      </button>
+      <button title="Donate" :onclick="`window.open('https://ko-fi.com/bryden', '_blank')`">
+        <font-awesome-icon :icon="['fas', 'circle-dollar-to-slot']" style="height: 25px" />
       </button>
     </div>
   </div>
