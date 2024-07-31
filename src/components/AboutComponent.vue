@@ -48,7 +48,11 @@ const age = computed(() => calculateAge(dob))
         title="Wakatime"
         :onclick="`window.open('https://wakatime.com/@BrydenIsNotSmart', '_blank')`"
       >
-        <img :src="wakatimeImg" class="icon" style="height: 23.5px; padding-top: 3px" />
+        <img
+          :src="wakatimeImg"
+          class="icon"
+          style="height: 23.5px; width: 23px; padding-top: 2px"
+        />
       </button>
       <button title="Donate" :onclick="`window.open('https://ko-fi.com/bryden', '_blank')`">
         <font-awesome-icon :icon="['fas', 'circle-dollar-to-slot']" style="height: 25px" />
