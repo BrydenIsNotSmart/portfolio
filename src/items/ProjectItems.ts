@@ -1,6 +1,7 @@
 import strafechatImg from '@/assets/img/strafechat.webp'
 import revoltbotsImg from '@/assets/img/revoltbots.webp'
 import vitallistImg from '@/assets/img/vitallist.webp'
+import streamyImg from '@/assets/img/streamy.webp'
 import azielImg from '@/assets/img/aziel.webp'
 
 export interface Item {
@@ -13,6 +14,14 @@ export interface Item {
 }
 
 const items: Item[] = [
+  {
+    heading: 'Streamy.gg',
+    url: 'https://streamy.gg',
+    github: 'https://github.com/StreamyGG',
+    discord: 'https://discord.com/invite/zUHH4VTTUh',
+    icon: streamyImg,
+    content: `Seamlessly manage your multi-streaming, only having to add your widgets, chatbot rules, moderation and more once! `
+  },
   {
     heading: 'StrafeChat',
     url: 'https://strafe.chat',

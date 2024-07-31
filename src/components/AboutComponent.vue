@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import wakatimeImg from '@/assets/img/wakatime.svg'
 
 const dob = new Date(2009, 0, 14)
 
@@ -45,6 +46,12 @@ const age = computed(() => calculateAge(dob))
       </button>
       <button title="Donate" :onclick="`window.open('https://ko-fi.com/bryden', '_blank')`">
         <font-awesome-icon :icon="['fas', 'circle-dollar-to-slot']" style="height: 25px" />
+      </button>
+      <button
+        title="Wakatime"
+        :on-click="`window.open('https://wakatime.com/@BrydenIsNotSmart', '_blank')`"
+      >
+        <img :src="wakatimeImg" class="icon" />
       </button>
     </div>
   </div>
