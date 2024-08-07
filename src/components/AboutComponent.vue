@@ -18,9 +18,9 @@ const age = computed(() => calculateAge(dob))
     <h1><b>About Me</b></h1>
     <h2>
       I go by BrydenIsNotSmart online and I'm currently {{ age }} years old. I like to code in my
-      free time, my main project is currently
-      <a href="https://strafe.chat" target="_blank" rel="noopener">Strafe Chat</a>. I also like to
-      play games like Valorant, PAYDAY 3, RDR2, GTA5 and more.
+      free time, my main projects are currently
+      <a href="https://streamy.gg" target="_blank" rel="noopener">Streamy.gg</a> and
+      <a href="https://strafe.chat" target="_blank" rel="noopener">Strafe Chat</a>
     </h2>
     <div>
       <button title="X" :onclick="`window.open('https://x.com/brydencalaway', '_blank')`">
