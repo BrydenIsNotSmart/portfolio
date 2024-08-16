@@ -66,11 +66,11 @@ const items: Item[] = [
   {
     icon: {
       type: 'font-awesome',
-      icon: ['fab', 'rust'],
+      icon: ['fab', 'golang'],
       color: 'black'
     },
-    heading: 'Rust',
-    content: `I'm currently learning Rust and hope to switch to it when making webservers instead of Express.`
+    heading: 'Golang',
+    content: `I'm currently learning Go and hope to switch to it when making webservers instead Node.js`
   },
   {
     icon: {
