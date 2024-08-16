@@ -67,7 +67,7 @@ const items: Item[] = [
     icon: {
       type: 'font-awesome',
       icon: ['fab', 'golang'],
-      color: 'black'
+      color: '#00acd7'
     },
     heading: 'Golang',
     content: `I'm currently learning Go and hope to switch to it when making webservers instead Node.js`
