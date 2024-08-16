@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import {
   faJsSquare,
   faVuejs,
-  faRust,
+  faGolang,
   faNodeJs,
   faXTwitter,
   faGithub,
@@ -22,7 +22,7 @@ import { faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons'
 library.add(
   faJsSquare,
   faVuejs,
-  faRust,
+  faGolang,
   faNodeJs,
   faXTwitter,
   faGithub,
