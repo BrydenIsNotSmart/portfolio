@@ -18,11 +18,7 @@ import rumble from '@/assets/img/rumble.webp'
       >
         <img :src="rumble" class="icon" style="height: 30px; width: 100px; padding-top: 2px" />
       </button>
-      <button
-        title="Kick"
-        :onclick="`window.open('https://kick.com
-        /BrydenIsNotSmart', '_blank')`"
-      >
+      <button title="Kick" :onclick="`window.open('https://kick.com/BrydenIsNoSmart', '_blank')`">
         <img :src="kick" class="icon" style="height: 30px; width: 75px; padding-top: 2px" />
       </button>
       <button
