@@ -13,6 +13,7 @@ import MainComponent from './components/MainComponent.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/activity">Activity</RouterLink>
+        <RouterLink to="/live">Live</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
         <RouterLink to="/technologies">Technologies</RouterLink>
       </nav>
