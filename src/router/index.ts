@@ -23,12 +23,12 @@ const router = createRouter({
       path: '/activity',
       name: 'activity',
       component: () => import('../views/ActivityView.vue')
-    },
-    {
-      path: '/live',
-      name: 'live',
-      component: () => import('../views/LiveView.vue')
     }
+    // {
+    //   path: '/live',
+    //   name: 'live',
+    //   component: () => import('../views/LiveView.vue')
+    // }
   ]
 })
 
